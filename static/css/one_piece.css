@@ -1,0 +1,57 @@
+body {
+  background-color: red;
+  margin:0px;
+}
+ul.top {
+  font-family: verdana;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.active {
+  background-color: #4CAF50;
+}
+li.top {
+  float: left;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 5px;
+  width: 150px;
+}
+
+li.top a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.top a:hover:not(.active) {
+  background-color: #111;
+}
+*{
+  cursor: url(https://vignette.wikia.nocookie.net/hunterxhunter/images/4/4c/KurapikaFullbody.png/revision/latest/scale-to-width-down/423?cb=20170719232718), auto;
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+div {
+  width: 300px;
+  border: 15px solid yellow;
+  padding: 50px;
+  margin: 20px;
+}
